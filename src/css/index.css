@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 
 .nebulei-font {
     font-family: 'Rubik', sans-serif;
+}
+
+.nebulei-font-2 {
+    font-family: 'Poppins', sans-serif;
 }
