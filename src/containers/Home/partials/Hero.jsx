@@ -5,7 +5,7 @@ const Hero = () => {
 
   return (
     <>
-    <section className=''>
+    <section className='mx-4'>
       <div className='bg-transparent'>
         <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
           <h1 className='text-black md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 nebulei-font'>
