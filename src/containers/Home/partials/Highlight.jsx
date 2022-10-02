@@ -13,8 +13,8 @@ const Highlight = () => {
                 </h2>
                 <p className="mb-4">
                   We want to inspire more humans to take part in the advancement of civilization upon all aspects as we believe this is what 
-                  humans were meant to do. Now-a-days there has been progression in censorship, which is horrible for any further advancement 
-                  in any subject; so therefore we allow the public to be the judge of any work, opinion, or publication, ext and then possibly 
+                  humans were meant to do. Nowadays their has been progression in censorship, which is horrible for any further advancement 
+                  in any subject; so therefore we allow the public to be the judge of any work, opinion, or publication and then possibly 
                   combat it with there own.
                 </p>
             </div>
