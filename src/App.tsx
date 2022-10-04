@@ -1,12 +1,12 @@
-import React from 'react';
-import { Route, Routes } from "react-router-dom"
+import React from 'react'
+import { Route, Routes } from "react-router-dom";
 
 import * as ROUTES from './constants/routes';
 
-import Navbar from './components/Navbar/index'
+import Navbar from './components/Navbar/index';
 import Home from './containers/Home';
-import NotFound from './containers/Core/404'
-import Footer from './components/Footer/index'
+import NotFound from './containers/Core/404';
+import Footer from './components/Footer/index';
 
 
 
@@ -25,6 +25,6 @@ function App() {
 
     </div>
   );
-}
+};
 
-export default App
+export default App;

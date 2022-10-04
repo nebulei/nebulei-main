@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 
 const Highlight = () => {
@@ -25,7 +25,7 @@ const Highlight = () => {
         </div>
     </section>
     </>
-  )
-}
+  );
+};
 
-export default Highlight
+export default Highlight;

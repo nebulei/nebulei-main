@@ -7,7 +7,7 @@ function NotFound() {
     <section className='bg-gradient-to-r from-[#9D4EDD] to-[#7B2CBF] flex items-center justify-center h-screen'>
         <div className='mx-4'>
             <div className='mx-auto max-w-screen-sm text-center'>
-                <h1 class='mb-4 text-7xl tracking-tight font-extrabold lg:text-9xls text-white'>
+                <h1 className='mb-4 text-7xl tracking-tight font-extrabold lg:text-9xls text-white'>
                     404
                 </h1>
                 <p className='mb-4 text-3xl tracking-tight font-bold text-white md:text-4xl'>
@@ -23,6 +23,6 @@ function NotFound() {
         </div>
     </section>
   );
-}
+};
 
-export default NotFound
+export default NotFound;
