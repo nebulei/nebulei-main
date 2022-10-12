@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Hero from './partials/Hero';
-import Highlight from './partials/Highlight';
+// import Highlight from './partials/Highlight';
 
 
 function Home() {
@@ -9,7 +9,9 @@ function Home() {
   return (
     <div id='Home'>
       <Hero />
-      <Highlight />
+      {
+      // <Highlight />
+      }
     </div>
   );
 };

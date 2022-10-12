@@ -6,7 +6,7 @@ const Hero = () => {
 
   return (
     <>
-    <section className='py-36'>
+    <section className="flex justify-center flex-col m-auto h-screen">
       <div className='mx-4'>
         <div className='max-w-[800px] h-full mx-auto text-center flex flex-col justify-center'>
           <h1 className='text-black md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 nebulei-font'>
