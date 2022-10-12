@@ -16,7 +16,7 @@ const Hero = () => {
             Share your research, publications, work, or opinion on diverse theoretical subjects & take part in ambitious projects.
           </p>
           <div className='flex flex-none'>
-          <Link to={`/`} className='bg-purple-600 hover:bg-purple-500 w-[200px] rounded-md my-6 mx-auto py-3 text-white nebulei-font-2 font-bold'>
+          <Link to={`/`} className='bg-purple-600 hover:bg-purple-500 w-[200px] rounded-full my-6 mx-auto py-3 text-white nebulei-font-2 font-extrabold'>
             Join Nebulei
           </Link>
           </div>
