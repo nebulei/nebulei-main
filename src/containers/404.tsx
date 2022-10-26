@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 function NotFound() {
 
   return (
-    <section className='bg-gradient-to-r from-[#9D4EDD] to-[#7B2CBF] flex items-center justify-center h-screen'>
+    <>
+    <section id='MainBackground' className='flex items-center justify-center h-screen'>
         <div className='mx-4'>
             <div className='mx-auto max-w-screen-sm text-center'>
                 <h1 className='mb-4 text-7xl tracking-tight font-extrabold lg:text-9xls text-white'>
@@ -22,6 +23,7 @@ function NotFound() {
             </div>   
         </div>
     </section>
+    </>
   );
 };
 

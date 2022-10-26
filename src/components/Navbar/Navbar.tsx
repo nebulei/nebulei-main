@@ -1,5 +1,5 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
+
 
 
 const Navbar = () => {
@@ -15,13 +15,17 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <div className='md:flex'>
-            <ul className='flex text-black items-center nebulei-font'>
-              <Link to={`/`} className='bg-transparent hover:underline hover:underline-offset-8 font-semibold py-2 px-4 rounded-full mx-4'>
-                Sign Up
+          <div className=''>
+            <ul className='text-black items-center nebulei-font'>
+              <Link to={`/`}>
+                <span className='g-transparent hover:bg-slate-200 font-semibold py-2 px-4 rounded-full mx-4'>
+                  Sign Up
+                </span>
               </Link>
-              <Link to={`/`} className='bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded-full'>
-                Login
+              <Link to={`/`}>
+                <span className='bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded-full'> 
+                  Login
+                </span>
               </Link>
             </ul>
           </div>
