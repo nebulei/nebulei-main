@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 function NotFound() {
 
   return (
+    <>
     <section id='MainBackground' className='flex items-center justify-center h-screen'>
         <div className='mx-4'>
             <div className='mx-auto max-w-screen-sm text-center'>
@@ -22,6 +23,7 @@ function NotFound() {
             </div>   
         </div>
     </section>
+    </>
   );
 };
 
