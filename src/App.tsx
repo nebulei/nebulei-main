@@ -4,7 +4,6 @@ import { Helmet } from "react-helmet";
 
 import Navbar from './components/Navbar/index';
 import Home from './containers/Home/index';
-import Auth from "./containers/Auth";
 import NotFound from './containers/404';
 
 
@@ -29,7 +28,6 @@ function App() {
 
       <Routes>
           <Route path={'/'} element={<Home />} />
-          <Route path={'/auth'} element={<Auth />} />
           <Route path={'*'} element={<NotFound />} />
       </Routes>
 
