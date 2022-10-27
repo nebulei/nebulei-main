@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom";
 
 import { Helmet } from "react-helmet";
 
-import Navbar from './components/Navbar/index';
 import Home from './containers/Home/index';
 import NotFound from './containers/404';
 
@@ -23,8 +22,6 @@ function App() {
           Nebulei, Collaboration, Invention, Creation, Engagement, Discussions, Research, Debates
         "/>
       </Helmet>
-
-      <Navbar />
 
       <Routes>
           <Route path={'/'} element={<Home />} />
