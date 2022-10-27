@@ -1,10 +1,3 @@
+import Contain from './contain';
 
-const contain = () => {
-  return (
-    <div id='contain'>
-      
-    </div>
-  );
-};
-
-export default contain;
+export default Contain;
