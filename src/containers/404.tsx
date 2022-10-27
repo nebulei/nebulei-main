@@ -17,7 +17,7 @@ function NotFound() {
                 <p className='mb-10 text-lg font-light text-white'>
                     Sorry, we don't have that page. Perhaps you've missed typed it?
                 </p>
-                <Link to={`/`} className='bg-white text-black font-semibold py-3 px-4 rounded-full'>
+                <Link to={`/`} className='bg-white nebulei-font text-black font-semibold py-3 px-4 rounded-full'>
                     Go Home
                 </Link>
             </div>   
