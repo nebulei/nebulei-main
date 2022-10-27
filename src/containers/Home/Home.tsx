@@ -1,4 +1,4 @@
-import HomeHero from './components/HomeHero/index';
+import HomeHero from './partials/HomeHero/index';
 
 
 function Home() {
