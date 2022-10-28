@@ -1,6 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 
 import Home from "./Home/index";
+import Auth from "./Auth/index";
+
 
 
 const contain = () => {
@@ -8,7 +10,8 @@ const contain = () => {
     <div id='contain'>
 
       <Routes>
-          <Route path={'/'} element={<Home />} />
+        <Route path={'/'} element={<Home />} />
+        <Route path={'/auth'} element={<Auth />} />
       </Routes>
   
     </div>
