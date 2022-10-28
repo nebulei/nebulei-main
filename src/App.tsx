@@ -24,7 +24,7 @@ function App() {
       </Helmet>
 
       <Routes>
-      <Route path={'*'} element={<NotFound />} />
+          <Route path={'*'} element={<NotFound />} />
           <Route path={'/'} element={<Contain />} />
       </Routes>
 
