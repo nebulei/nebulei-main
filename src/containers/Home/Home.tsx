@@ -1,11 +1,15 @@
-import HomeHero from './components/HomeHero/index';
+import Navbar from '../../components/Navbar';
+import HomeHero from './partials/HomeHero/index';
 
 
 function Home() {
 
   return (
     <div id='Home'>
-      <HomeHero />
+      <Navbar />
+        
+        <HomeHero />
+        
     </div>
   );
 };

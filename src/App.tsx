@@ -2,10 +2,8 @@ import { Route, Routes } from "react-router-dom";
 
 import { Helmet } from "react-helmet";
 
-import Navbar from './components/Navbar/index';
-import Home from './containers/Home/index';
-import Auth from "./containers/Auth";
-import NotFound from './containers/404';
+import NotFound from "./containers/404";
+import Contain from "./containers/index";
 
 
 
@@ -25,12 +23,9 @@ function App() {
         "/>
       </Helmet>
 
-      <Navbar />
-
       <Routes>
-          <Route path={'/'} element={<Home />} />
-          <Route path={'/auth'} element={<Auth />} />
           <Route path={'*'} element={<NotFound />} />
+          <Route path={'/'} element={<Contain />} />
       </Routes>
 
     </div>
