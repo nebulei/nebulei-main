@@ -9,7 +9,7 @@ const Nav = () => {
     <div className='h-16'>
       <div className='max-w-full mx-auto px-4 flex justify-between items-center h-full'>
 
-        <div>
+        <div className='hidden md:block'>
           <Link to={`/`}>
             <img className='h-8 w-8 flex' src={`https://storage.googleapis.com/nebulei-main-images/icons/nebulei-svg-logo`} alt="Nebulei"></img>
           </Link>
