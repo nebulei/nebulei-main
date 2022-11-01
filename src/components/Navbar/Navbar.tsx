@@ -17,12 +17,12 @@ const Navbar = () => {
 
           <div className=''>
             <ul className='text-black items-center nebulei-font'>
-              <Link to={`/`}>
+              <Link to={`/register`}>
                 <span className='g-transparent hover:bg-slate-200 font-semibold py-2 px-4 rounded-full mx-4'>
                   Sign Up
                 </span>
               </Link>
-              <Link to={`/`}>
+              <Link to={`/login`}>
                 <span className='bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded-full'> 
                   Login
                 </span>
