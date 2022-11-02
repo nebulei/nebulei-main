@@ -5,7 +5,7 @@ import AccBtn from '../AccBtn/AccBtn';
 
 const Nav = () => {
   return (
-  <nav className='fixed w-full h-16 bg-gray-50'>
+  <nav className='fixed w-full h-16'>
     <div className='h-16'>
       <div className='max-w-full mx-auto px-4 flex justify-between items-center h-full'>
 
