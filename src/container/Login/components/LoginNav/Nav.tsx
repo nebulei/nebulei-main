@@ -6,7 +6,7 @@ import NoAccBtn from '../NoAccBtn/NoAccBtn';
 
 const Nav = () => {
   return (
-  <nav className='fixed w-full h-16'>
+  <nav className='fixed w-full h-16 border-b'>
     <div className='h-16'>
       <div className='max-w-full mx-auto px-4 flex justify-between items-center h-full'>
 
