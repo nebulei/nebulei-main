@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 
-import NotFound from "./404";
-import Home from "./Home/index";
-import Login from "./Login/index";
-import Register from "./Register/index";
+import NotFound from "./container/404";
+import Home from "./container/Home/index";
+import Login from "./container/Login/index";
+import Register from "./container/Register/index";
 
 
 

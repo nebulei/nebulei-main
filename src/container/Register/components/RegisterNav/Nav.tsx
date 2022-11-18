@@ -1,12 +1,11 @@
 import { Link } from 'react-router-dom';
 
-import NoAccBtn from '../NoAccBtn/NoAccBtn';
-
+import AccBtn from '../AccBtn/AccBtn';
 
 
 const Nav = () => {
   return (
-  <nav className='fixed w-full h-16'>
+  <nav className='fixed w-full h-16 border-b'>
     <div className='h-16'>
       <div className='max-w-full mx-auto px-4 flex justify-between items-center h-full'>
 
@@ -18,9 +17,9 @@ const Nav = () => {
 
         <div>
           <ul className='text-black items-center nebulei-font'>
-            <Link to={`/register`}>
+            <Link to={`/login`}>
 
-            <NoAccBtn />
+              <AccBtn />
 
             </Link>
           </ul>

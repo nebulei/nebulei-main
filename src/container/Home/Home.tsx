@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 
-import Navbar from '../components/Navbar';
+import Navbar from '../../components/Navbar/index';
 import HomeHero from './partials/HomeHero/index';
 
 
